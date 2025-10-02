@@ -1,0 +1,15 @@
+.header a img{
+  height: 100%;
+  width:140px;
+}
+
+.main{
+  color: aliceblue;
+  padding: 12px;
+}
+
+.step a{
+  color: blueviolet;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
