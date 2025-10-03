@@ -1,0 +1,102 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --background-color: #f4f4f4;
+    --font-family: 'Arial', sans-serif;
+    --padding: 16px;
+    --max-width: 1200px;
+}
+
+body {
+    font-family: var(--font-family);
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--padding);
+    text-align: center;
+}
+
+.main {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: var(--padding);
+}
+
+.container {
+    margin-bottom: 24px;
+}
+
+.div {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: var(--padding);
+}
+
+h1, h2, h3 {
+    margin: 0 0 16px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: var(--secondary-color);
+}
+
+dl {
+    margin: 0;
+}
+
+
+dd {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+li {
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.footer {
+    text-align: center;
+    padding: 16px 0;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 1.25em;
+    }
+
+    h3 {
+        font-size: 1.1em;
+    }
+
+    .div {
+        padding: 12px;
+    }
+}
