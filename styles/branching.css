@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #FFFF82;
+    --secondary-color: #F5F7DC;
+    --tertiary-color: #B5D99C;
+    --text-color: #0F0326;
+    --background-color:#E65F5C;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
