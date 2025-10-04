@@ -1,6 +1,7 @@
 :root {
     --primary-color: #D4C5E2;
     --secondary-color: #C9D7F8;
+    --tertiary-color: rgb(188, 222, 246);
     --text-color: #4C6663;
     --background-color: #A7E2E3;
     --font-family: 'arial', sans-serif;
@@ -25,7 +26,7 @@ body {
 
 .header {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--text-color);
     padding: var(--padding);
     text-align: center;
 }
@@ -71,7 +72,7 @@ body {
 }
 
 .div {
-    background-color: white;
+    background-color: var(--tertiary-color);
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: var(--padding);
