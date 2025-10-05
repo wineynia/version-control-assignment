@@ -7,9 +7,9 @@ li{
 }
 
 a{
-  text-decoration: none;
   color: rgb(175, 107, 23);
-  font-weight: 700;
+  font-weight: 700; 
+  text-decoration: none;
 }
 
 html{
@@ -20,18 +20,17 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 0;
   height: 100%;
+  margin: 0;
   width: 100%;
 }
 
 .header{
-  /* background-color: #d2caca; */
-  height: 10%;
-  width: 100%;
+  align-items: center;
   display:flex;
   justify-content: flex-end;
-  align-items: center;
+  height: 10%;
+  width: 100%;
 }
 
 .header ul li{
@@ -46,36 +45,48 @@ body{
 
 .header ul li a:hover{
   color: red;
-  
 }
 
 .main{
- flex:1;
- background: url(../images/background.jpg) no-repeat center center/cover;
-}
-
-.main__substile{
-  padding: 24px;
+  background: url(../images/background.jpg) no-repeat center center/cover;
+  flex:1;
 }
 
 .main__content{
   color:rgb(239, 226, 230);
-  padding: 24px;
+  padding: 30px;
+}
+
+.main__content h1{
+  color: black;
+}
+
+.main__content p{
+  font-size: 20px;
 }
 
 .main__content button{
   background-color: darkmagenta;
-  height: 50px;
-  width: 150px;
   border-radius: 12px;
   cursor: pointer;
+  height: 50px;
+  margin-top:20px;
+  width: 200px;
 }
 
-
 .footer{
-  background-color: #d2caca;;
-  height: 10%;
+  background-color: #d2caca;
   line-height: 70px;
-  width: 100%;
   text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width:400px) {
+  .header ul li{
+    font-size: 12px;
+  }
+
+  .main__content h1{
+    font-size: 30px;
+  }
 }

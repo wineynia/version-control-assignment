@@ -1,15 +1,82 @@
 .header a img{
-  height: 100%;
-  width:140px;
+  height: 110px;
+  width: 100%;
 }
 
 .main{
-  color: aliceblue;
-  padding: 12px;
+  display: grid;
+  grid-gap:5px;
+  grid-template-areas: 
+  "content content content"
+  "step git-commands explain";
+  padding:24px;
 }
 
-.step a{
-  color: blueviolet;
-  font-size: 1.5rem;
+.grid-item{
+  border: 1px dashed #1E96FF;
+  color:#fff;
+  margin:2px; 
+  padding: 5px;
+}
+
+.content{
+  grid-area:content;
+}
+
+.step{
+  grid-area:step;
+}
+
+.step .step-1{
+  height: 50px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.step .step-2{
+  height: auto;
+  width: 100%;
+}
+
+.git-commands{
+  grid-area:git-commands;
+}
+
+.git-commands ul{
+  padding:0 15px;
+  margin-bottom: 24px;
+}
+
+.title{
+  color: rgb(151, 190, 50);
+  list-style: circle;
+  margin: 10px 0;
+}
+
+.explain{
+  grid-area:explain;
+}
+
+.explain img{
+  height: auto;
+  width: 100%;
+}
+
+.main p,li{
+  color: aliceblue;
+  font-size: 18px;
+}
+
+@media screen and (max-width:440px){
+ .main{
+   display: flex;
+   flex-direction: column;
+   padding:24px;
+ }
+
+ h1,h2{
+  color: rgb(236, 82, 82);
+  font-size: 15px;
   text-decoration: underline;
+ }
 }
