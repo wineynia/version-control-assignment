@@ -7,23 +7,23 @@
     </head>
 
     <body>
-        <header>
-            <h1>Branching</h1>
-            <h2>Branching is a fundamental feature of Git that allows you to create separate lines of development within a repository.</h2>
+        <header class="header">
+            <h1 class="header__title">Branching</h1>
+            <h2 class="header__subtitle">Branching is a fundamental feature of Git that allows you to create separate lines of development within a repository.</h2>
         </header>
 
-        <nav>
-            <li><a>Home</a></li>
-            <li><a>About Us</a></li>
-            <li><a>Project</a></li>
-            <li><a href="./changes.html" target="_blank">Changes in git</a></li>
-            <li><a href="./branching.html" target="_blank">Branching in git</a></li>
+        <nav class="menu">
+            <a class="menu__item">Home</a>
+            <a class="menu__item">About Us</a>
+            <a class="menu__item">Project</a>
+            <a class="menu__item" href="./changes.html" target="_blank">Changes in git</a>
+            <a class="menu__item" href="./branching.html" target="_blank">Branching in git</a>
         </nav>
 
-        <main>
-            <section>
-                <div>
-                    <h3>This is crucial for various reasons</h3>
+        <main class="main">
+            <section class="section">
+                <div class="div">
+                    <h3 class="header__subtitle">This is crucial for various reasons</h3>
                     <ol>
                         <li>Isolated Development<br>
                             Branching allows developers to work on different features or bug fixes simultaneously without interfering with the main codebase. This isolation helps in maintaining stability while new features are being developed.
@@ -51,20 +51,20 @@
                 </div>
             </section>
                 
-            <section>
-                <div>
-                    <h3>Git Commands for Creating and Closing Branches</h3>
+            <section class="section">
+                <div class="div">
+                    <h3 class="header__subtitle">Git Commands for Creating and Closing Branches</h3>
                     <ol>
                         <li>
                             Creating a Branch<br>
                             When you want to start working on a new feature, you create a new branch by typing this command:<br>
-                            <span>git checkout -b &lt;new-branch-name&gt</span>
+                            <span class="span">git checkout -b &lt;new-branch-name&gt</span>
                         </li>
                         <li>
                             Closing (Deleting) a Branch<br>
                             After merging a branch and confirming that it's no longer needed, you can delete it by typing this command:<br>
-                            <span>git branch -d &lt;branch-name&gt #Deletes the branch if it has been merged</span><br>
-                            <span>git branch -D &lt;branch-name&gt #Forcibly deletes the branch</span>
+                            <span class="span">git branch -d &lt;branch-name&gt #Deletes the branch if it has been merged</span><br>
+                            <span class="span">git branch -D &lt;branch-name&gt #Forcibly deletes the branch</span>
                         </li>
                     </ol>
                     <p>By understanding these commands and concepts, you can effectively manage and contribute to existing repositories using Git and GitHub.</p>
@@ -72,7 +72,7 @@
             </section>
         </main>
 
-        <footer>&copy; 2025 Gabriella</footer>
+        <footer class="footer">&copy; 2025 Gabriella</footer>
     </body>
 
 </html>
