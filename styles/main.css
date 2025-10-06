@@ -7,31 +7,49 @@ html {
 }
 
 body {
+  background-color: #F9F8F1;
   display: flex;
   flex-direction: column;
+  font-family: "Old Standard Regular";
   height: 100%;
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "BebasNeue", Arial, sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .header {
-  text-align: center;
+  background-color: #0081A7;
   padding: 32px 16px;
+  text-align: center;
+}
+
+.title {
+  color: #F9F8F1;
 }
 
 .menu {
@@ -43,4 +61,15 @@ h4 {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  padding: 16px;
+}
+
+.subheading__title {
+  color: #E86A92;
+}
+
+.footer {
+  background-color: #2C2A25;
+  color: #F9F8F1;
+  padding: 16px;
 }
