@@ -2,12 +2,16 @@
   font-style: italic;
 }
 
-.changes__commands {
+.commands {
   margin-top: 48px;
 }
 
+.list-item {
+  margin: 8px 0px;
+}
+
 @media screen and (min-width: 768px) {
-  .changes__explanations {
+  .explanations {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
