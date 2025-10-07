@@ -5,13 +5,7 @@
 }
 
 @font-face {
-  font-family: "Old Standard Bold";
-  src: url("../fonts/old_standard/OldStandardTT-Bold.woff2"),
-    url("OldStandardTT-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Old Standard Regular";
-  src: url("../fonts/old_standard/OldStandardTT-Regular.woff2"),
-    url("OldStandardTT-Regular.woff") format("woff");
+  font-family: "Libre";
+  src: url("../fonts/libre/LibreBaskerville-Regular.woff2"),
+    url("LibreBaskerville-Regular.woff") format("woff");
 }
