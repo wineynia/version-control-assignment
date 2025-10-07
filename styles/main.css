@@ -65,6 +65,7 @@ button {
 
 .title {
   color: #f9f8f1;
+  padding-bottom: 16px;
 }
 
 .menu {
@@ -74,6 +75,7 @@ button {
 }
 
 .menu-item {
+  border-radius: 5px;
   padding: 4px;
   width: 70%;
 }
@@ -98,4 +100,14 @@ button {
   color: #f9f8f1;
   padding: 16px;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    flex-direction: row;
+  }
+
+  .menu-item:hover {
+    background-color: #e86a92;
+  }
 }
