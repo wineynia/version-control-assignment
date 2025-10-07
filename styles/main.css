@@ -92,7 +92,6 @@ button {
   font-family: "BebasNeue", Arial, sans-serif;
   font-size: 1.5rem;
   padding: 4px;
-  width: 50%;
 }
 
 .menu-item:active {
@@ -128,6 +127,10 @@ button {
   .menu {
     flex-direction: row;
     width: 60%;
+  }
+
+  .menu-item {
+    width: 50%;
   }
 
   .menu-item:hover {
