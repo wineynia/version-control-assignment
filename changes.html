@@ -22,7 +22,7 @@
     <main class="main-container">
       <div class="subheading">
         <h2 class="subheading__title">Changes</h2>
-        <p class="subheading__subsectionn">
+        <p class="subheading__subsection">
           Adding code to an existing repository in Git and GitHub is essential
           for several reasons, all of which enhance collaboration and project
           management. These elements create a robust environment for software
@@ -30,17 +30,17 @@
           quality, and facilitate teamwork.
         </p>
       </div>
-      <section class="container">
-        <div class="div">
-          <h3>Version Control</h3>
+      <section class="changes__explanations">
+        <div class="explanations-div">
+          <h3 class="section-titles">Version Control</h3>
           <dl>
-            <dt>History Tracking</dt>
+            <dt class="subtitle">History Tracking</dt>
             <dd>
               Every change made to the code is saved, allowing you to track the
               history of modifications. This is critical for debugging and
               understanding how the project has evolved.
             </dd>
-            <dt>Collaboration</dt>
+            <dt class="subtitle">Collaboration</dt>
             <dd>
               Multiple developers can work on the same project simultaneously
               without conflicts, as Git helps manage changes from different
@@ -48,16 +48,16 @@
             </dd>
           </dl>
         </div>
-        <div class="div">
-          <h3>Collaboration and Teamwork</h3>
+        <div class="explanations-div">
+          <h3 class="section-titles">Collaboration and Teamwork</h3>
           <dl>
-            <dt>Branching and Merging</dt>
+            <dt class="subtitle">Branching and Merging</dt>
             <dd>
               Developers can create branches to work on new features or bug
               fixes independently. When changes are complete, these branches can
               be merged back into the main branch, ensuring a smooth workflow.
             </dd>
-            <dt>Pull Requests</dt>
+            <dt class="subtitle">Pull Requests</dt>
             <dd>
               GitHub provides a platform to review code changes through pull
               requests, promoting code review and discussions among team members
@@ -65,15 +65,15 @@
             </dd>
           </dl>
         </div>
-        <div class="div">
-          <h3>Code Quality</h3>
+        <div class="explanations-div">
+          <h3 class="section-titles">Code Quality</h3>
           <dl>
-            <dt>Review Processes</dt>
+            <dt class="subtitle">Review Processes</dt>
             <dd>
               Code reviews via pull requests help in maintaining high-quality
               code by allowing peers to catch issues and suggest improvements.
             </dd>
-            <dt>Automated Testing</dt>
+            <dt class="subtitle">Automated Testing</dt>
             <dd>
               Teams can integrate continuous integration/continuous deployment
               (CI/CD) systems to automatically test changes before merging,
@@ -81,26 +81,26 @@
             </dd>
           </dl>
         </div>
-        <div class="div">
-          <h3>Accessibility and Backups</h3>
+        <div class="explanations-div">
+          <h3 class="section-titles">Accessibility and Backups</h3>
           <dl>
-            <dt>Remote Access</dt>
+            <dt class="subtitle">Remote Access</dt>
             <dd>
               GitHub provides a remote repository that can be accessed from
               anywhere, making it easy for developers distributed across
               different geographical locations to collaborate.
             </dd>
-            <dt>Backup</dt>
+            <dt class="subtitle">Backup</dt>
             <dd>
               By pushing code to a remote repository like GitHub, teams have a
               backup of their codebase, reducing the risk of data loss.
             </dd>
           </dl>
         </div>
-        <div class="div">
-          <h3>Documentation</h3>
+        <div class="explanations-div">
+          <h3 class="section-titles">Documentation</h3>
           <dl>
-            <dt>Commit Messages</dt>
+            <dt class="subtitle">Commit Messages</dt>
             <dd>
               Developers can add descriptive commit messages that serve as
               documentation for what changes were made and why, aiding future
@@ -109,35 +109,33 @@
           </dl>
         </div>
       </section>
-      <section class="container">
-        <div class="div">
-          <p>
-            To add code to an existing repository on GitHub, you typically
-            follow several steps involving your local Git environment. Here's a
-            detailed breakdown, including the essential Git commands.
-          </p>
-          <h3>Git commands for staging, committing, and pushing changes.</h3>
-          <ol>
-            <li>Clone the repository</li>
-            <dd>by typing: git clone &lt;repository-url&gt;</dd>
-            <li>Check the status</li>
-            <dd>by typing: git status</dd>
-            <li>Stage your changes</li>
-            <dt>Stage your changes for all changes</dt>
-            <dd>by typing: git add .</dd>
-            <dt>Stage your changes for specific files</dt>
-            <dd>by typing git add &lt;file1&gt; &lt;file2&gt;</dd>
-            <li>Commit your changes</li>
-            <dt>git commit -m "Your commit message describing the changes"</dt>
-            <li>Push your changes</li>
-            <dt>git push origin &lt;branch-name&gt;</dt>
-          </ol>
-          <p>
-            Following these steps ensures your contributions are properly
-            integrated into the main codebase while maintaining the repository's
-            integrity.
-          </p>
-        </div>
+      <section class="changes__commands">
+        <h3>Git commands for staging, committing, and pushing changes.</h3>
+        <p>
+          To add code to an existing repository on GitHub, you typically follow
+          several steps involving your local Git environment. Here's a detailed
+          breakdown, including the essential Git commands.
+        </p>
+        <ol>
+          <li>Clone the repository</li>
+          <dd>by typing: git clone &lt;repository-url&gt;</dd>
+          <li>Check the status</li>
+          <dd>by typing: git status</dd>
+          <li>Stage your changes</li>
+          <dt>Stage your changes for all changes</dt>
+          <dd>by typing: git add .</dd>
+          <dt>Stage your changes for specific files</dt>
+          <dd>by typing git add &lt;file1&gt; &lt;file2&gt;</dd>
+          <li>Commit your changes</li>
+          <dt>git commit -m "Your commit message describing the changes"</dt>
+          <li>Push your changes</li>
+          <dt>git push origin &lt;branch-name&gt;</dt>
+        </ol>
+        <p>
+          Following these steps ensures your contributions are properly
+          integrated into the main codebase while maintaining the repository's
+          integrity.
+        </p>
       </section>
     </main>
     <footer class="footer">
