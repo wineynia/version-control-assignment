@@ -61,7 +61,7 @@ button {
 .header {
   background-color: #0081a7;
   background-image: url("../images/background.jpg");
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -84,7 +84,7 @@ button {
   border-radius: 5px;
   color: #f9f8f1;
   padding: 4px;
-  width: 70%;
+  width: 50%;
 }
 
 .menu-item:active {
@@ -116,5 +116,10 @@ button {
 
   .menu-item:hover {
     background-color: #e86a92;
+  }
+
+  .main-container {
+    align-self: center;
+    width: 70%;
   }
 }

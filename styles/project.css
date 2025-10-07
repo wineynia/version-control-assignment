@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) {
+  img {
+    display:block;
+    margin: auto;
+    padding: 4px 0;
+    width: 50%;
+  }
+}
