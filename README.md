@@ -10,24 +10,24 @@ Our goal is to help new developers understand how to use version control effecti
 
 The website includes the following pages:
 
-- Home Page
+- Home Page<br>
   Introduction to the project and its purpose.
 
-- Project Page
+- Project Page<br>
   Explains why remote repositories are important.
   Demonstrates how to create a GitHub project.
   List of Git commands.
   Gitflow.
 
-- Changes Page
+- Changes Page<br>
   Explains how to add code to an existing repository.
   Includes Git commands for staging, committing, and so on.
 
-- Branching Page
+- Branching Page<br>
   Describes why branching is important.
   Shows commands for creating, merging, and deleting branches.
 
-- About Us Page
+- About Us Page<br>
   Introduces the team and our workflow
 
 ### ⌨️ Technologies Used:
