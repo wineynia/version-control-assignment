@@ -4,51 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About Us | The Git Guide</title>
-    <link rel="stylesheet" href="./style/about.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">The Git Guide</h1>
-      <nav class="navbar">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutUs.html">About Us</a></li>
-        <li><a href="project.html">Project</a></li>
-        <li><a href="changes.html">Changes in Git</a></li>
-        <li><a href="branching.html">Branching in Git</a></li>
+      <h1 class="title">The Git Guide</h1>
+      <nav class="menu">
+        <a class="menu-item" href="./index.html">Home</a>
+        <a class="menu-item" href="./project.html">Project</a>
+        <a class="menu-item" href="./changes.html">Changes</a>
+        <a class="menu-item" href="./branching.html">Branching</a>
+        <a class="menu-item" href="./aboutUs.html">About Us</a>
       </nav>
     </header>
     <main class="main-container">
-      <h2 class="page-title">About Us</h2>
-      <p>
-        We are a team of three students in Futuregames Stockholm's Frontend
-        Developer program, collaborating on the Version Control Assignment,
-        where our goal is to build a multi-page website that explains the basics
-        of Git and GitHub to new developers. Together, we are responsible for
-        researching accurate information, presenting Git commands in a clear
-        way, and designing a responsive site that demonstrates both our
-        technical understanding and teamwork. Each of us contribute by creating
-        branches, committing changes, opening pull requests, and reviewing each
-        other’s work to ensure the project meets all the passing requirements.
-      </p>
+      <div class="subheading">
+        <h1 class="subheading__title">About Us</h1>
+        <p class="subheading__subsection">
+          We are a team of three students in Futuregames Stockholm's Frontend
+          Developer program, collaborating on the Version Control Assignment,
+          where our goal is to build a multi-page website that explains the
+          basics of Git and GitHub to new developers. Together, we are
+          responsible for researching accurate information, presenting Git
+          commands in a clear way, and designing a responsive site that
+          demonstrates both our technical understanding and teamwork. Each of us
+          contribute by creating branches, committing changes, opening pull
+          requests, and reviewing each other’s work to ensure the project meets
+          all the passing requirements.
+        </p>
+      </div>
       <div class="info-wrapper">
         <div class="info">
-          <h4>Gabriella</h4>
+          <a href="https://github.com/wineynia" target="_blank"
+            ><h3 class="name">Gabriella</h3></a
+          >
           <p>
-            She is a passionate Front-End Developer student with a strong
-            interest in creating clean, user-friendly, and visually engaging web
+            Gabriella is a passionate Frontend Developer with a strong interest
+            in creating clean, user-friendly, and visually engaging web
             experiences.
           </p>
         </div>
         <div class="info">
-          <h4>Ting</h4>
+          <a href="https://github.com/janetli82-ui" target="_blank"
+            ><h3 class="name">Ting</h3></a
+          >
           <p>
             Ting is from China and she never studied about IT before. She worked
-            as a HR in China. Frontend development is very unfamiliar for her.
-            But she likes to try new things.
+            in HR in China. Frontend development is very unfamiliar for her, but
+            she likes to try new things.
           </p>
         </div>
         <div class="info">
-          <h4>Claudia</h4>
+          <a href="https://github.com/claudiacarion" target="_blank"
+            ><h3 class="name">Claudia</h3></a
+          >
           <p>
             Claudia has a background in media and education, but has always been
             fascinated by technology. Frontend development combines her passion
@@ -58,7 +69,6 @@
           </p>
         </div>
       </div>
-      <div class="main-content"></div>
     </main>
     <footer class="footer">
       <h4 class="footer__text">&copy; GTC 2025</h4>
