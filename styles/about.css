@@ -1,0 +1,26 @@
+.subheading__subsection {
+  margin-bottom: 48px;
+}
+
+.info h3:active {
+  color: #e86a92;
+}
+
+@media screen and (min-width: 768px) {
+  .info-wrapper {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .info h3 {
+    text-align: center;
+  }
+
+  .name:hover {
+    background-color: #e86a92;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+    transform: scale(1.1);
+  }
+}

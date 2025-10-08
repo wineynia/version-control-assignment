@@ -1,0 +1,19 @@
+.subtitle {
+  font-style: italic;
+}
+
+.commands {
+  margin-top: 32px;
+}
+
+.list-item {
+  margin: 8px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .explanations {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

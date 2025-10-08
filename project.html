@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | The Git Guide</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/project.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">The Git Guide</h1>
+      <nav class="menu">
+        <a class="menu-item" href="./index.html">Home</a>
+        <a class="menu-item" href="./project.html">Project</a>
+        <a class="menu-item" href="./changes.html">Changes</a>
+        <a class="menu-item" href="./branching.html">Branching</a>
+        <a class="menu-item" href="./aboutUs.html">About Us</a>
+      </nav>
+    </header>
+    <div class="main-container">
+      <div class="subheading">
+        <h1 class="subheading__title">Projects</h1>
+      </div>
+      <div class="content-block">
+        <h3 class="subtitle">Why remote repositories are necessary</h3>
+        <p>
+          Remote repositories are essential for facilitating team collaboration
+          by providing a central, shared location for code, allowing developers
+          to push their changes and pull updates from others, and serving as a
+          critical backup to prevent data loss from local machine failures. They
+          act as a synchronization point for multiple developers working on the
+          same project, enabling features like pull requests, code reviews, and
+          issue tracking, which are vital for modern software development.
+        </p>
+      </div>
+      <div class="content-block">
+        <h3 class="subtitle">How to create a project on Github</h3>
+        <p>
+          Go to your GitHub account and select New repository. Give it a name
+          and then choose public. A public repo is available to anyone to see
+          and collaborate. Don't worry about adding a Readme or a License just
+          yet! Once the repository is created in GitHub, you need to connect
+          your local code to the repo. Follow the instructions on GitHub to do
+          this.
+        </p>
+        <a href="./images/1.png" target="_blank">
+          <img
+            src="./images/1.png"
+            alt="step 1"
+            class="step-1"
+            height="auto"
+            width="100%"
+        /></a>
+        <a href="./images/2.png" target="_blank">
+          <img
+            src="./images/2.png"
+            alt="step 2"
+            class="step-2"
+            height="auto"
+            width="100%"
+        /></a>
+      </div>
+      <div class="commands-section">
+        <h3 class="subtitle">Git commands:</h3>
+        <ul class="main-ul">
+          <div class="list-item">
+            <li class="list-title">Setup & Initialization</li>
+            <ul>
+              <li>mkdir folder branch-name</li>
+              <li>git init</li>
+            </ul>
+          </div>
+          <div class="list-item">
+            <li class="list-title">Workflow Commands</li>
+            <ul>
+              <li>git status</li>
+              <li>git add./git add *.html</li>
+              <li>git commit -m "Commit message"</li>
+              <li>git log --oneline --graph --all</li>
+            </ul>
+          </div>
+          <div class="list-item">
+            <li class="list-title">Branching & Merging</li>
+            <ul>
+              <li>git branch</li>
+              <li>git checkout -b new-branch</li>
+              <li>git checkout branch-name</li>
+              <li>git merge branch-name</li>
+            </ul>
+          </div>
+          <div class="list-item">
+            <li class="list-title">Remote repository Operations</li>
+            <ul>
+              <li>git push origin main</li>
+              <li>git pull origin main</li>
+            </ul>
+          </div>
+        </ul>
+      </div>
+      <div class="content-block">
+        <h3 class="subtitle">How other people can contribute to the project</h3>
+        <p>
+          Fork the project. Create a topic branch from main . Make some commits
+          to improve the project. Push this branch to your GitHub project. Open
+          a Pull Request on GitHub. Discuss, and optionally continue committing.
+          The project owner merges or closes the Pull Request.
+        </p>
+        <a href="./images/GitHub-workflow-illustration.png" target="_blank">
+          <img
+            src="./images/GitHub-workflow-illustration.png"
+            alt="Github flow"
+            height="auto"
+            width="100%"
+        /></a>
+      </div>
+    </div>
+    <footer class="footer">
+      <h4 class="footer__text">&copy; GTC 2025</h4>
+    </footer>
+  </body>
+</html>
