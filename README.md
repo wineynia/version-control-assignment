@@ -36,9 +36,7 @@ Introduces the team and our workflow
 - Responsive Web Design
 
 ### 😃 Team Members
-[Gabriella](https://github.com/wineynia)
-[Ting](https://github.com/janetli82-ui)
-[Claudia](https://github.com/claudiacarion)
+[Gabriella](https://github.com/wineynia), [Ting](https://github.com/janetli82-ui), [Claudia](https://github.com/claudiacarion)
 
 ### 👁 To view the site locally:
 git clone https://github.com/your-username/your-repo-name.git
