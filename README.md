@@ -45,15 +45,15 @@ open index.html
 
 ### 💡 How to Contribute:
 We welcome contributions that improve content, design, or accessibility!
-Here’s how you can help:
-Fork the repository
-Clone your fork locally
-Create a new branch
-Make your changes
-Add your updates or new features. Please keep commits focused and descriptive.
-Commit and push
-Open a Pull Request (PR)
-Go to your forked repo on GitHub and click “Compare & Pull Request”.
-Describe your changes clearly so we can review them.
+Here’s how you can help:<br>
+Fork the repository<br>
+Clone your fork locally<br>
+Create a new branch<br>
+Make your changes<br>
+Add your updates or new features. Please keep commits focused and descriptive.<br>
+Commit and push.<br>
+Open a Pull Request (PR).<br>
+Go to your forked repo on GitHub and click “Compare & Pull Request”.<br>
+Describe your changes clearly so we can review them.<br>
 
 Thank you! 🙏
