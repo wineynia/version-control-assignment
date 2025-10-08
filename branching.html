@@ -53,12 +53,32 @@
                 
             <section class="section">
                 <div class="div">
-                    <h3 class="header__subtitle">Git Commands for Creating and Closing Branches</h3>
+                    <h3 class="header__subtitle">Git Commands for Creating, Merging and Closing Branches</h3>
                     <ol>
                         <li>
                             Creating a Branch<br>
                             When you want to start working on a new feature, you create a new branch by typing this command:<br>
                             <span class="span">git checkout -b &lt;new-branch-name&gt</span>
+                        </li>
+                        <li>
+                            Merging a branch<br>
+                            <ol>
+                                <li>
+                                    Switch to the Branch You Want to Merge Into:<br>
+                                    Use git <span>checkout &lt;branch-you-want-to-merge-into&gt;</span>
+                                </li>
+                                <li>
+                                    Perform the Merge:<br>
+                                    Execute <span>git merge &lt;branch-name&gt;</span> to combine the changes from the specified branch.
+                                </li>
+                                <li>
+                                    Resolve Conflicts (if any):<br>
+                                    <ul>
+                                        <li>If there are conflicts, Git will pause the merge process and allow you to resolve them manually. Use &lt;git status&gt; to see which files need attention.</li>
+                                        <li>After resolving conflicts, use <span>git add &lt;file&gt;</span>to stage the resolved files and then <span>git commit</span>to complete the merge.</li>
+                                    </ul>
+                                </li>
+                            </ol>
                         </li>
                         <li>
                             Closing (Deleting) a Branch<br>
