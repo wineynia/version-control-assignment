@@ -61,6 +61,7 @@ button {
 }
 
 .header {
+  align-items: center;
   background-color: #0081a7;
   background-image: url("../images/background.jpg");
   background-position: center center;
@@ -69,7 +70,6 @@ button {
   background-blend-mode: multiply;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 32px 16px 8px 16px;
   text-align: center;
 }
@@ -80,9 +80,9 @@ button {
 }
 
 .menu {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .menu-item,
