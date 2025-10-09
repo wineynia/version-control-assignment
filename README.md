@@ -44,8 +44,8 @@ The website includes the following pages:
 
 ### 👁 To view the site locally:
 
-git clone https://github.com/your-username/your-repo-name.git<br>
-cd your-repo-name<br>
+git clone https://github.com/wineynia/version-control-assignment.git<br>
+cd version-control-assignment<br>
 open index.html
 
 ### 💡 How to Contribute:
