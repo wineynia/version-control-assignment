@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Branching | The Git Guide</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/typography.css" />
+    <link rel="stylesheet" href="./styles/branching.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">The Git Guide</h1>
+      <nav class="menu">
+        <a class="menu-item" href="./index.html">Home</a>
+        <a class="menu-item" href="./project.html">Project</a>
+        <a class="menu-item" href="./changes.html">Changes</a>
+        <a class="menu-item" href="./branching.html">Branching</a>
+        <a class="menu-item" href="./aboutUs.html">About Us</a>
+      </nav>
+    </header>
+    <main class="main-container">
+      <div class="subheading">
+        <h1 class="subheading__title">Branching</h1>
+        <p class="subheading__subsection">
+          Branching is a fundamental feature of Git that allows you to create separate lines of development within a
+          repository.
+        </p>
+      </div>
+      <div class="info-section">
+        <section class="info-block">
+          <h3 class="subtitle">Why branching is crucial</h3>
+          <ol>
+            <li>
+              <h4>Isolated Development</h4>
+              <p>
+                Branching allows developers to work on different features or bug fixes simultaneously without
+                interfering with the main codebase. This isolation helps in maintaining stability while new features are
+                being developed.
+              </p>
+            </li>
+            <li>
+              <h4>Experimentation</h4>
+              <p>
+                Branches enable developers to experiment with new ideas, code, or technologies without the risk of
+                breaking existing functionality. If the experiment fails, the branch can simply be deleted without
+                affecting the main project.
+              </p>
+            </li>
+            <li>
+              <h4>Collaboration</h4>
+              <p>
+                When multiple developers are working on a project, branching facilitates collaboration. Each developer
+                can work on their branch, and changes can be merged back into the main branch (often called `main` or
+                `master`) when they are ready.
+              </p>
+            </li>
+            <li>
+              <h4>Feature Development</h4>
+              <p>
+                Branches can be created for specific features, making it easy to track progress and changes related to
+                that feature. Once the feature is complete and tested, it can be merged back into the main branch.
+              </p>
+            </li>
+            <li>
+              <h4>Version Control</h4>
+              <p>
+                Branching aids in version control by providing a clear history of changes. You can see what changes were
+                made in each branch and when they were merged, making it easier to understand the development process.
+              </p>
+            </li>
+            <li>
+              <h4>Code Reviews</h4>
+              <p>
+                Branches allow for code reviews before merging changes. Team members can review code on a separate
+                branch, provide feedback, and request changes, leading to higher code quality.
+              </p>
+            </li>
+            <li>
+              <h4>Continuous Integration and Deployment</h4>
+              <p>
+                In many CI/CD workflows, branches are used to trigger automated testing and deployment processes. This
+                ensures that new code is always tested before it becomes part of the stable version.
+              </p>
+            </li>
+          </ol>
+          <p>
+            Using branches effectively helps in maintaining a clean and organized codebase, facilitating collaboration,
+            and reducing the risk of introducing errors into the main project. This is essential in both individual and
+            team environments.
+          </p>
+        </section>
+        <section class="info-block">
+          <h3 class="subtitle commands">Git Commands for Creating and Closing Branches</h3>
+          <ol>
+            <li>
+              Creating a Branch
+              <p>
+                When you want to start working on a new feature, you create a new branch by typing this command:
+                <br />
+                <span class="span">git checkout -b &lt;new-branch-name&gt</span>
+              </p>
+            </li>
+            <li>
+              Merging a branch
+              <br />
+              <ol>
+                <li>
+                  Switch to the Branch You Want to Merge Into:
+                  <br />
+                  Use git
+                  <span>checkout &lt;branch-you-want-to-merge-into&gt;</span>
+                </li>
+                <li>
+                  Perform the Merge:
+                  <br />
+                  Execute
+                  <span>git merge &lt;branch-name&gt;</span>
+                  to combine the changes from the specified branch.
+                </li>
+                <li>
+                  Resolve Conflicts (if any):
+                  <br />
+                  <ul>
+                    <li>
+                      If there are conflicts, Git will pause the merge process and allow you to resolve them manually.
+                      Use &lt;git status&gt; to see which files need attention.
+                    </li>
+                    <li>
+                      After resolving conflicts, use
+                      <span>git add &lt;file&gt;</span>
+                      to stage the resolved files and then
+                      <span>git commit</span>
+                      to complete the merge.
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+            </li>
+
+            <li>
+              Closing (Deleting) a Branch
+              <p>
+                After merging a branch and confirming that it's no longer needed, you can delete it by typing this
+                command:
+                <br />
+                <span class="span">git branch -d &lt;branch-name&gt / Deletes the branch if it has been merged</span>
+                <br />
+                <span class="span">git branch -D &lt;branch-name&gt / Forcibly deletes the branch</span>
+              </p>
+            </li>
+          </ol>
+          <p>
+            By understanding these commands and concepts, you can effectively manage and contribute to existing
+            repositories using Git and GitHub.
+          </p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <h4 class="footer__text">&copy; GTC 2025</h4>
+    </footer>
+  </body>
+</html>

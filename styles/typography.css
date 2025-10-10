@@ -1,0 +1,11 @@
+@font-face {
+  font-family: BebasNeue;
+  src: url("../fonts/bebas_neue/BebasNeue-Regular.woff2"),
+    url("BebasNeue-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Libre";
+  src: url("../fonts/libre/LibreBaskerville-Regular.woff2"),
+    url("LibreBaskerville-Regular.woff") format("woff");
+}

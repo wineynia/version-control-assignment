@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+  .info-section {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

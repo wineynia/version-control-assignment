@@ -1,0 +1,19 @@
+.main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content > a {
+  align-self: center;
+  margin: 16px;
+}
+
+.button {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .main-content > a {
+    align-self: flex-start;
+  }
+}
