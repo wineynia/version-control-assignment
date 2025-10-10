@@ -1,5 +1,7 @@
 # 💻 Version Control Assignment – The Git Guide
 
+https://wineynia.github.io/version-control-assignment/
+
 ### 🗒 Overview:
 
 This project is a group assignment created to demonstrate practical knowledge of Git and GitHub through the development of a multi-page educational website.
